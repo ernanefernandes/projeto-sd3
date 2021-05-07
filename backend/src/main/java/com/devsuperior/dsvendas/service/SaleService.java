@@ -20,6 +20,7 @@ public class SaleService {
 	
 	@Autowired
 	private SaleRepository repository;
+	
 	@Autowired
 	private SellerRepository sellerRepository;
 	
@@ -37,6 +38,6 @@ public class SaleService {
 	
 	@Transactional(readOnly = true)
 	public List<SaleSuccessDTO> successGroupeBySeller() {
-		return repository.sucessGroupeBySeller();
+		return repository.successGroupeBySeller();
 	}
 }
