@@ -67,11 +67,11 @@ public class Sale {
 		this.date = date;
 	}
 
-	public Seller getSaler() {
+	public Seller getSeller() {
 		return seller;
 	}
 
-	public void setSaler(Seller seller) {
+	public void setSeller(Seller seller) {
 		this.seller = seller;
 	}
 
