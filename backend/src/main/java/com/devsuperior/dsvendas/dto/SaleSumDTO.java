@@ -29,11 +29,11 @@ public class SaleSumDTO implements Serializable{
 		this.sum = sum;
 	}
 
-	public String getSallerName() {
+	public String getSellerName() {
 		return sellerName;
 	}
 
-	public void setSallerName(String sallerName) {
+	public void setSellerName(String sallerName) {
 		this.sellerName = sallerName;
 	}
 	
