@@ -25,6 +25,7 @@ const DataTable = () => {
 
   const handleChangePage = (index: number) => {
     setactivePage(index);
+
   }
 
   return (
